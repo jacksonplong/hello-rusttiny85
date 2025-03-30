@@ -1,4 +1,4 @@
-My first time writing real bare metal code.
+My first time writing bare metal code, pretty much an excersize in the toolchain above all else.
 
 # Major Resources:
 
