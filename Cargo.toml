@@ -21,8 +21,13 @@ features=["attiny85"]
 
 [profile.release]
 panic = "abort"
+opt-level = "z"
+lto = true
+codegen-units = 1
+debug = false
 
 [profile.dev]
-panic="abort"
+panic ="abort"
+opt-level = 3
 
 
